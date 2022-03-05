@@ -32,8 +32,9 @@
 <script>
 import './header.css';
 import MyButton from './Button.vue';
+import { defineComponent} from '@nuxtjs/composition-api'
 
-export default {
+export default defineComponent({
   name: 'my-header',
 
   components: { MyButton },
@@ -55,5 +56,5 @@ export default {
       this.$emit('onCreateAccount');
     },
   },
-};
+})
 </script>
