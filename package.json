@@ -27,6 +27,7 @@
     "@storybook/addon-links": "^6.4.19",
     "@storybook/vue": "^6.4.19",
     "babel-loader": "^8.2.3",
+    "css-loader": "^5.0.0",
     "vue-loader": "^15.9.8"
   }
 }
