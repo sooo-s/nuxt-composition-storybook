@@ -3,6 +3,17 @@ import MyHeader from './Header';
 export default {
   title: 'Example/Header',
   component: MyHeader,
+  argTypes: {
+    onLogin: {
+      action: 'onLogin'
+    },
+    onLogout: {
+      action: 'onLogout'
+    },
+    onCreateAccount: {
+      action: 'onCreatAccount'
+    }
+  }
 };
 
 const Template = (args, { argTypes }) => ({
